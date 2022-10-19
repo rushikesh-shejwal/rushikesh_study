@@ -1,0 +1,9 @@
+https://pyautogui.readthedocs.io/en/latest/mouse.html#mouse-scrolling
+
+
+import pyautogui
+import time
+while True:
+    # pyautogui.moveRel(0,10)
+    time.sleep(0.1)
+    pyautogui.scroll(10)
